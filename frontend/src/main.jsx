@@ -4,7 +4,7 @@ import {ethers} from 'ethers';
 import {CONTRACT_ADDRESS,CONTRACT_ABI} from './contract';
 import './styles.css';
 
-const API='http://localhost:4000/api';
+const API='https://charitychain-gsdp.onrender.com/api';
 function App(){
  const [campaigns,setCampaigns]=useState([]); const [wallet,setWallet]=useState(''); const [notice,setNotice]=useState('');
  const [amounts,setAmounts]=useState({}); const [ai,setAi]=useState(null);
